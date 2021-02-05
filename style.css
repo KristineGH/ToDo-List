@@ -1,0 +1,29 @@
+.Add_Section {
+    height: 200px;
+    text-align: center;
+    background-color: rgb(198, 200, 241);
+}
+#ToDo_input_div {
+    padding: 70px;
+}
+.ToDo_List_Section {
+    height: calc(100vh - 220px);
+    text-align: center;
+    background-color: whitesmoke
+}
+.warning {
+    background-color: yellow;
+}
+.info {
+    background-color: rgb(147, 176, 245);
+}
+.error {
+    background-color: red;
+}
+.notice {
+    background-color: orange;
+}
+ul li {
+    height: 50px;
+    border-radius: 50px;
+}

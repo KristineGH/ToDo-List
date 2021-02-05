@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="styleSheet" href="./style.css">
+</head>
+
+<body>
+    <section class="Add_Section">
+        <div id="ToDo_input_div">
+            <label for="ToDo_Text">
+                ToDo text
+                <input type="text" id="ToDo_Text">
+            </label>
+            <label for="ToDo_Type">
+                ToDo type
+                <select id="ToDo_Type">
+                    <option value="warning">Warning</option>
+                    <option value="info">Info</option>
+                    <option value="error">Error</option>
+                    <option value="notice">Notice</option>
+                </select>
+            </label>
+            <label for="Add_button">
+                <input type="button" value="Add ToDo" id="Add_button">
+            </label>
+        </div>
+    </section>
+    <section class="ToDo_List_Section">
+        <ul id="ToDo_List">
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
